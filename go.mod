@@ -16,8 +16,8 @@ require (
 	k8s.io/component-base v0.23.1
 	k8s.io/component-helpers v0.23.1
 	k8s.io/controller-manager v0.23.1
-	k8s.io/klog/v2 v2.30.0
-	k8s.io/utils v0.0.0-20210930125809-cb0fa318a74b
+	k8s.io/klog/v2 v2.40.1
+	k8s.io/utils v0.0.0-20211208161948-7d6a63dca704
 )
 
 replace (
@@ -25,7 +25,7 @@ replace (
 	k8s.io/apimachinery => k8s.io/apimachinery v0.23.1
 	k8s.io/apiserver => k8s.io/apiserver v0.23.1
 	k8s.io/client-go => k8s.io/client-go v0.23.1
-	k8s.io/component-base => k8s.io/component-base v0.23.1
+	k8s.io/component-base => github.com/lubronzhan/component-base v0.0.0-20220208043527-ef1463b271f3
 	k8s.io/component-helpers => k8s.io/component-helpers v0.23.1
 	k8s.io/controller-manager => k8s.io/controller-manager v0.23.1
 )
